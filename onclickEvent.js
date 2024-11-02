@@ -17,7 +17,7 @@ i = document.getElementById("value5").value;
 a=a+i+'からね♪'
     document.getElementById("output").textContent=a;
 navigator.clipboard.writeText(a);
-    location.href ="https://x.com/intent/tweet?text="+a+"@nhjhssのhttps://x.gd/89OFI で作成しました!
+    location.href ="https://x.com/intent/tweet?text="+a+"@nhjhssのhttps://x.gd/89OFI で作成しました!"
         "
 
 };
