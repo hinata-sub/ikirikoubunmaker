@@ -1,4 +1,6 @@
-var v="https://x.com"
+function hoge() {
+location.href ="https://x.com"
+}
 function btnClick() {
 x = document.getElementById("value").value;
 a='なんかクラスの'+x;
@@ -15,6 +17,6 @@ i = document.getElementById("value5").value;
 a=a+i+'からね♪'
     document.getElementById("output").textContent=a;
 navigator.clipboard.writeText(a);
-    b="https://x.com/intent/tweet?text="+a
+    location.href ="https://x.com/intent/tweet?text="+a
 
 };
