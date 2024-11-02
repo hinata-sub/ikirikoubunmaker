@@ -1,3 +1,4 @@
+var v="https://x.com"
 function btnClick() {
 x = document.getElementById("value").value;
 a='なんかクラスの'+x;
