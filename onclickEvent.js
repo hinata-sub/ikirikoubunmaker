@@ -19,6 +19,6 @@ a=a+i+'からね♪'
 navigator.clipboard.writeText(a);
     c=a+"@nhjhssのhttps://x.gd/89OFI で作成しました!"
     location.href ="https://x.com/intent/tweet?text="+c
-        "
+        
 
 };
