@@ -14,5 +14,6 @@ i = document.getElementById("value5").value;
 a=a+i+'からね♪'
     document.getElementById("output").textContent=a;
 navigator.clipboard.writeText(a);
+    b="https://x.com/intent/tweet?text="+a
 
 };
